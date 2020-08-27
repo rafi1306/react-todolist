@@ -1,5 +1,5 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 const Paper = ({ children }) => {
   return (
@@ -10,9 +10,9 @@ const Paper = ({ children }) => {
 };
 
 Paper.propTypes = {
-  children: propTypes.oneOfType([
-    propTypes.arrayOf(propTypes.node),
-    propTypes.node
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
   ])
 };
 
